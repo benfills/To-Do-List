@@ -3,6 +3,19 @@
 Proyek to-do list sederhana buat belajar FullStack. 
 
 
+# Tech
+- HTML/CSS/JS
+- Backend: (ditentukan nanti)
+- Database: PostgreSQL
+
+
+
+# Tim
+- Zllal = Desain UI  
+- Ri = Layout (HTML/CSS)  
+- Refa = Auth 
+- Vadlan = Tasks Backend / DB  
+
 
 # Roadmap
 
@@ -92,18 +105,3 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 5 MVP DONE (APP JALAN)**
 
 ⚪ GUI → Auth → Task CRUD bekerja smooth
-
-
-
-# Tech
-- HTML/CSS/JS
-- Backend: (ditentukan nanti)
-- Database: PostgreSQL
-
-
-
-# Tim
-- Zllal = Desain UI  
-- Ri = Layout (HTML/CSS)  
-- Refa = Auth 
-- Vadlan = Tasks Backend / DB  
