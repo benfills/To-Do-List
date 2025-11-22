@@ -27,7 +27,9 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 1 UI DESAIN (AZLAL)**
 
 ⚪ Buat mockup GUI utama (Task List)
+
 ⚪ Buat mockup Login & Register
+
 ⚪ Fix warna, font, spacing
 
 ---
@@ -35,7 +37,9 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 2 LAYOUT UI (RIZKI)**
 
 ⚪ Coding tampilan Login / Register
+
 ⚪ Coding tampilan Task List
+
 ⚪ Buat komponen (Add, List, Toggle)
 
 ---
@@ -43,9 +47,13 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 3A AUTH LOGIN/REGISTER (REVA)**
 
 ⚪ POST `/auth/register`
+
 ⚪ POST `/auth/login`
+
 ⚪ Hash password
+
 ⚪ JWT + Middleware
+
 ⚪ Return `user_id` dalam `req` untuk backend tasks
 
 ---
@@ -53,10 +61,15 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 3B DB + QUERY + CRUD (VADLAN)**
 
 ⚪ Buat tabel `tasks`
+
 ⚪ POST `/tasks`
+
 ⚪ GET `/tasks`
+
 ⚪ PATCH `/tasks/:id` (toggle)
+
 ⚪ DELETE `/tasks/:id`
+
 ⚪ Query harus hanya menampilkan task milik `user_id` terkait
 
 ---
@@ -64,7 +77,9 @@ Proyek to-do list sederhana buat belajar FullStack.
 ## **FASE 4 INTEGRASI (SEMUA)**
 
 ⚪ Rizki sambungkan UI ke Auth
+
 ⚪ Rizki sambungkan UI ke CRUD Tasks
+
 ⚪ Test alur lengkap:
 
   * Login → Masuk → Tambah Task
