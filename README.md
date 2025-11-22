@@ -2,6 +2,8 @@
 
 Proyek to-do list sederhana buat belajar FullStack. 
 
+
+
 # Roadmap
 
 ## **FASE 0 — PLANNING (SEMUA ORANG)**
@@ -91,13 +93,17 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 ⚪ GUI → Auth → Task CRUD bekerja smooth
 
+
+
 # Tech
 - HTML/CSS/JS
 - Backend: (ditentukan nanti)
 - Database: PostgreSQL
 
+
+
 # Tim
-- Zllal — Desain UI  
-- Ri — Layout (HTML/CSS)  
-- Refa — Auth  
-- Vadlan — Tasks Backend / DB  
+- Zllal = Desain UI  
+- Ri = Layout (HTML/CSS)  
+- Refa = Auth 
+- Vadlan = Tasks Backend / DB  
