@@ -2,8 +2,10 @@
 
 Proyek to-do list sederhana buat belajar FullStack. 
 
-## Roadmap
+# Roadmap
 
+## FASE 0
+### PLANNING
 ┌──────────────────────────────────────────┐
 │                 PHASE 0                  │
 │                PLANNING                  │
