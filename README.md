@@ -1,23 +1,23 @@
-# To-Do App (MVP)
+# ✪ To-Do App (MVP)
 
 Proyek to-do list sederhana buat belajar FullStack. 
 
 
-# Tech
+# ✪ Tech
 - HTML/CSS/JS
 - Backend: (Belum Ditentuin)
 - Database: PostgreSQL
 
 
 
-# Tim
+# ✪ Tim
 - Azlal = Desain UI  
 - Rizki = Layout (HTML/CSS)  
 - Refa = Auth 
 - Vadlan = Tasks Backend / DB  
 
 
-# Roadmap
+# ✪ Roadmap
 
 ## **FASE 0 — PLANNING (SEMUA ORANG)**
 
