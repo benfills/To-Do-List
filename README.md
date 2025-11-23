@@ -11,8 +11,8 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 
 # Tim
-- Zllal = Desain UI  
-- Ri = Layout (HTML/CSS)  
+- Azlal = Desain UI  
+- Rizki = Layout (HTML/CSS)  
 - Refa = Auth 
 - Vadlan = Tasks Backend / DB  
 
@@ -59,7 +59,7 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 ---
 
-## **FASE 3A AUTH LOGIN/REGISTER (REVA)**
+## **FASE 3A AUTH LOGIN/REGISTER (REFA)**
 
 ⚪ POST `/auth/register`
 
