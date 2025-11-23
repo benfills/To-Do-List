@@ -5,7 +5,7 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 # ✪ Tech
 - HTML/CSS/JS
-- Backend: (Belum Ditentuin)
+- Backend: Node.js(Fastify)
 - Database: PostgreSQL
 
 
