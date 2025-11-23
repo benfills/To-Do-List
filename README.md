@@ -19,7 +19,7 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 # ✪ Roadmap
 
-## **FASE 0 — PLANNING (SEMUA ORANG)**
+## **FASE 0 PLANNING (SEMUA ORANG)**
 
 🟢**Fitur:**
 
