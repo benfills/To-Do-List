@@ -35,7 +35,7 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 🔵**UserFlow:** *(otw)*
 
-🔵**Style Guide:** *(otw)*
+🔵**Style Guide:** *(otw, ngantuk le)*
 * Login / Register: Animasi(Press) = zoom in pop up 
                     Animasi(Hover) = (blom)  
                     Warna = (blom)
