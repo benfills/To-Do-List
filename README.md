@@ -30,13 +30,59 @@ Proyek to-do list sederhana buat belajar FullStack.
 * Hapus Task
 * Deadline Hapus Permanent (30 Hari)
 * Hapus Permanen
-* Notifikasi
+* Notifikasi per task
 * (Klo mau nambah boleh)
 
 🔵**UserFlow:** *(otw)*
 
-⚪**Style Guide:**
-
+🔵**Style Guide:** *(otw)*
+* Login / Register: Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Tambah Task: Animasi(Press) = zoom in pop up +  
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Lihat Task List: Animasi(Press) = gak ada
+                    Animasi(Hover) = 
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Beralih Done (toggle): Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Hapus Task: Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = Ikon sampah
+                    
+* Deadline Hapus Permanent (30 Hari): Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Hapus Permanen: Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
+                    
+* Notifikasi per task: Animasi(Press) = zoom in pop up 
+                    Animasi(Hover) = (blom)  
+                    Warna = (blom)
+                    Letak = Pojok kanan bar navigasi
+                    Logo = gak ada
 ---
 
 ## **FASE 1 UI DESAIN (AZLAL)**
