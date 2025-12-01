@@ -1,0 +1,66 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Sans Serif', Times, serif;
+}
+
+.PembungkusNavigasi {
+    display: flex;
+    font-size: 30px;
+    padding: 15px;
+    width: 100%;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.logo  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.logo img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+.NamaBrand {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 1.5em;
+    margin-left: 10px;
+    padding: 15px;
+    text-transform: capitalize;
+    width: 70%;
+}
+.JudulBelakang {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.JudulDepan {
+    color: crimson;
+    font-weight: 700;
+}
+.DaftarNavigasi {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+}
+.DaftarNavigasi > li {
+    list-style-type: none;
+    padding: 15px;
+    position: relative;
+}
+.DaftarNavigasi > li > a {
+    color: azure;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.DaftarNavigasi > li > a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
