@@ -33,7 +33,122 @@ Proyek to-do list sederhana buat belajar FullStack.
 * Notifikasi per task
 * (Klo mau nambah boleh)
 
-🔵**UserFlow:** *(otw)*
+🔵**UserFlow:**
+
+TO-DO APP
+│
+├─ ENTRY APLIKASI
+│   │
+│   ├─ Buka URL
+│   │   │
+│   │   ├─ JWT valid?
+│   │   │   ├─ YA  → Task List
+│   │   │   └─ TIDAK → Login Page
+│   │   │
+│   │   └─ (401) → Clear Token → Login
+│
+├─ AUTH
+│   │
+│   ├─ Register
+│   │   │
+│   │   ├─ Form Register
+│   │   │   ├─ username/email
+│   │   │   └─ password
+│   │   │
+│   │   └─ POST /auth/register
+│   │       ├─ sukses → Login
+│   │       └─ gagal → Error
+│   │
+│   └─ Login
+│       │
+│       ├─ Input credential
+│       └─ POST /auth/login
+│           ├─ sukses
+│           │   ├─ simpan JWT
+│           │   └─ Task List
+│           └─ gagal → Error
+│
+├─ TASK LIST (CORE)
+│   │
+│   ├─ Load Page
+│   │   └─ GET /tasks
+│   │       └─ filter user_id
+│   │
+│   ├─ Task State
+│   │   ├─ active
+│   │   ├─ done
+│   │   └─ soft_deleted (deleted_at != null)
+│   │
+│   ├─ Add Task
+│   │   │
+│   │   ├─ Klik Add
+│   │   ├─ Popup Form
+│   │   │   ├─ title
+│   │   │   ├─ description?
+│   │   │   ├─ deadline?
+│   │   │   └─ notification_time?
+│   │   │
+│   │   └─ POST /tasks
+│   │       ├─ sukses → refresh list
+│   │       └─ gagal → error
+│   │
+│   ├─ Toggle Done
+│   │   │
+│   │   └─ PATCH /tasks/:id
+│   │       └─ is_done = !is_done
+│   │
+│   ├─ Delete Task (Soft)
+│   │   │
+│   │   ├─ Klik ikon sampah
+│   │   ├─ Konfirmasi
+│   │   └─ DELETE /tasks/:id
+│   │       └─ set deleted_at = now
+│   │
+│   └─ (Opsional) Trash View
+│       │
+│       └─ Hapus Permanen
+│           └─ DELETE /tasks/:id?force=true
+│               └─ hard delete
+│
+├─ TASK LIFECYCLE
+│   │
+│   ├─ Created
+│   ├─ Updated (toggle)
+│   ├─ Soft Deleted
+│   │   └─ deleted_at set
+│   │
+│   └─ Hard Deleted
+│       ├─ manual (force=true)
+│       └─ auto (30 hari)
+│
+├─ AUTO CLEANUP
+│   │
+│   ├─ Cron / Worker
+│   └─ Check:
+│       └─ now - deleted_at > 30 hari
+│           └─ Hard Delete
+│
+├─ NOTIFIKASI
+│   │
+│   ├─ Task punya notification_time
+│   ├─ Server cek waktu
+│   └─ Trigger notifikasi
+│       └─ (MVP: console / alert)
+│
+├─ SECURITY / GUARD
+│   │
+│   ├─ Middleware JWT
+│   ├─ Inject user_id ke request
+│   └─ Cek ownership task
+│       └─ mismatch → 403
+│
+└─ TIM
+    │
+    ├─ Azlal → UI / Screen
+    ├─ Rizki → HTML / CSS / Event UI
+    ├─ Refa  → Auth / JWT / Guard
+    └─ Vadlan → DB / Query / Task Lifecycle
+
 
 🔵**Style Guide:** *(otw, ngantuk le)*
 * Login / Register: Animasi(Press) = zoom in pop up 
