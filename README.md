@@ -37,7 +37,7 @@ Proyek to-do list sederhana buat belajar FullStack.
 
 Download aja file : ➡ Userflow To-Do List.svg
 
-🔵**Style Guide:** *(otw, ngantuk le)*
+🟢**Style Guide:**
 * Login / Register: Animasi(Press) = zoom in pop up 
                     Animasi(Hover) = (blom)  
                     Warna = (blom)
